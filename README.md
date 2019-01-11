@@ -1,2 +1,2 @@
 # Box Office Mojo Parser
-This parser allows a user to extract the highest grossing movies from Box Office Mojo based on genre. Furthermore, using the OMDB API, the user is able to enrich the retrieved data with the movie's plot lines. The user can use the functions to retrieve all box office information with a page number and genre.
+This parser allows a user to extract the highest grossing movies from Box Office Mojo based on genre. Furthermore, using the OMDB API, the user is able to enrich the retrieved data with the movie's plot lines. The user can use the functions to retrieve all box office information with a page number and genre. The user is able to use the last function to write out the data into a CSV file.
