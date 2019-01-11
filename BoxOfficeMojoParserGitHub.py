@@ -13,7 +13,7 @@ def retrieveURL (page,genre): #function takes in a page number and genre, return
 
 
 def get_movie_list(soup): #function takes in the soup of a url and creates a list of dictionaries for the movies in the url
-    api_key = 'b4d9a054' #api key for OMDB which enriches the movie data with plotlines
+    api_key = ' ' #api key for OMDB which enriches the movie data with plotlines, INSERT your own api key hear from OMDB API
     OMDB_endpoint = 'http://www.omdbapi.com/?apikey={}&t={}&plot=full' #OMDB endpoint
     main_div = soup.find('div', {'id': 'body'}) #finding main table in the Box Office Mojo URL
     main_table = main_div.find('h2')
